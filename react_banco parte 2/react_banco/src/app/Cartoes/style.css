@@ -1,0 +1,152 @@
+/* Estilos Gerais */
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+/* Estilos para Seção de Cartões */
+.cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 370.5px;
+    height: 235.5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 8px 8px 5px  #474747;
+}
+
+.debito{
+    background-color: #68b65c;
+    background-image: linear-gradient(45deg, #68b65c 15%, #A7F789 55%, #2EC4B6 80%);
+    color: #333232;
+}
+
+.credito{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 15%,#b0b0b0 55%, #000000 74%);
+    color: #e9e8e8;
+}
+
+.internacional{
+    background-color: #4ab989;
+    color: #e9d470;
+}
+
+#borda{
+    border: #ffc42f double;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+}
+
+p {
+    margin: 10px;
+}
+
+#logo {
+    width: 12%;
+    margin: 0px;
+}
+
+.dados {
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chip {
+    width: 12%; 
+}
+
+.card_number {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card_bloco_final {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_labels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+}
+
+.card_dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+}
+
+#visa {
+    width: 15%;
+}
+
+#mastercard {
+    width: 15%;
+}
+
+/* Estilo para Botão de Excluir */
+.exclui {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    padding: 8px 15px;
+    background-color: #f75e5e;
+    color: #e9e8e8;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #474747;
+    cursor: pointer;
+}
+
+/* Estilos para Botão de Adição */
+.novo-cartao {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    padding: 10px 25px;
+    background-color: #539555;
+    color: #e9e8e8;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  #474747;
+    cursor: pointer;
+}
